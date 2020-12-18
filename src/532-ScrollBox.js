@@ -33,14 +33,10 @@ class ScrollBox extends Component {
   }
 }
 
-{
-  /* 
-    부모 컴포넌트에서 자식 컴포넌트 메서드 사용
-    <div>
-    <ScrollBox ref={(ref)=>{this.scrollBox=ref}}/>
-    <button onClick={()=>{this.scrollBox.scrollToBottom()}}>맨 밑으로</button>
-    </div> 
-*/
-}
-
 export default ScrollBox;
+
+// 부모 컴포넌트에서 자식 컴포넌트 메서드 사용
+// <div>
+// <ScrollBox ref={(ref)=>{this.scrollBox=ref}}/>
+// <button onClick={()=>{this.scrollBox.scrollToBottom()}}>맨 밑으로</button>
+// </div>

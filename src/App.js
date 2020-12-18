@@ -1,24 +1,12 @@
-import React, { Component } from "react";
-import ScrollBox from "./532-ScrollBox";
-class App extends Component {
-  render() {
+import React, { useState } from "react";
+import Average from "./844-Average";
+
+const App = () => {
     return (
-      <div>
-        <ScrollBox
-          ref={(ref) => {
-            this.scrollBox = ref;
-          }}
-        />
-        <button
-          onClick={() => {
-            this.scrollBox.scrollToBottom();
-          }}
-        >
-          맨 밑으로
-        </button>
-      </div>
+        <div>
+            <Average />
+        </div>
     );
-  }
-}
+};
 
 export default App;
