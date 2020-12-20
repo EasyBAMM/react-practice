@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Average from "./844-Average";
+import CSSModule from "./931-CSSModule";
 
 const App = () => {
     return (
         <div>
-            <Average />
+            <CSSModule />
         </div>
     );
 };
