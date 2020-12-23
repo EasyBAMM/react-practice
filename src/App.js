@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import CSSModule from "./931-CSSModule";
+import React from "react";
+import SwitchApp from "./1363-SwitchApp";
 
 const App = () => {
     return (
         <div>
-            <CSSModule />
+            <SwitchApp />
         </div>
     );
 };
