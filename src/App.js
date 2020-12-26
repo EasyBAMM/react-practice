@@ -1,10 +1,10 @@
 import React from "react";
-import SwitchApp from "./1363-SwitchApp";
+import ColorBoxProvider from "./components/1532-ColorBoxProvider";
 
 const App = () => {
     return (
         <div>
-            <SwitchApp />
+            <ColorBoxProvider />
         </div>
     );
 };
