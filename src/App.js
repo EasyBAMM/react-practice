@@ -1,10 +1,10 @@
 import React from "react";
-import ColorBoxProvider from "./components/1532-ColorBoxProvider";
+import CounterTodosApp from "./components/1723-CounterTodosApp";
 
 const App = () => {
     return (
         <div>
-            <ColorBoxProvider />
+            <CounterTodosApp />
         </div>
     );
 };
