@@ -1,10 +1,10 @@
 import React from "react";
-import CounterTodosApp from "./components/1723-CounterTodosApp";
+import SampleContainer from "./containers/1832-SampleContainer";
 
 const App = () => {
     return (
         <div>
-            <CounterTodosApp />
+            <SampleContainer />
         </div>
     );
 };
