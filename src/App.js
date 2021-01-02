@@ -1,10 +1,10 @@
 import React from "react";
-import SampleContainer from "./containers/1832-SampleContainer";
+import ServerSideApp from "./components/2022-ServerSideApp";
 
 const App = () => {
     return (
         <div>
-            <SampleContainer />
+            <ServerSideApp />
         </div>
     );
 };
